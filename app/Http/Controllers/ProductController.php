@@ -23,6 +23,6 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('product.list');
+        return view('adminlayout.masterLayout');
     }
 }
